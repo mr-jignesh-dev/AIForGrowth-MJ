@@ -198,7 +198,7 @@ const Ecosystem = () => {
     { id: "agent-1", name: "Interview AI", link: "https://interview-ai-2jf6.onrender.com/login", task: "Technical questions, behavioral questions, preparation road map, generate resume, build a winning strategy." },
     { id: "agent-2", name: "AI Career Coach", link: "https://ai-career-coach-mj.vercel.app", task: "Advance your career with personalized guidance, interview prep, and AI-powered tools for job success.", featured: true },
     { id: "agent-3", name: "Interview IQ", link: "https://interviewiq-ai-mj.onrender.com", task: "AI-powered interview preparation platform designed to improve communication skills, technical depth and professional confidence." },
-    { id: "agent-4", name: "AI Resume Analyzer", link: "https://example.com", task: "Will return in doomsday." }
+    { id: "agent-4", name: "AI Resume Analyzer", link: "https://ai-resume-analyzer-mj.puter.site", task: "Provide a job listing and get an ATS score with custom feedback tailored to each resume." }
   ];
 
   const [loadingStates, setLoadingStates] = useState<Record<string, boolean>>({});
@@ -440,7 +440,7 @@ const Ecosystem = () => {
               
               <div className="flex-grow mb-8">
                 <p className="text-white/40 text-[10px] font-label uppercase tracking-[0.2em] mb-1">Task</p>
-                <p className="text-white/70 text-sm font-body leading-relaxed">{item.task}</p>
+                <p className="text-white/70 text-[16px] font-body leading-relaxed">{item.task}</p>
               </div>
 
               <button 
