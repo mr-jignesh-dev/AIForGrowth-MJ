@@ -195,9 +195,9 @@ const Hero = () => {
 
 const Ecosystem = () => {
   const items = [
-    { id: "agent-1", name: "AI Resume Analyzer", link: "https://ai-resume-analyzer-mj.puter.site", task: "Provide a job listing and get an ATS score with custom feedback tailored to each resume." },
-    { id: "agent-2", name: "Interview IQ", link: "https://interviewiq-ai-mj.onrender.com", task: "AI-powered interview preparation platform designed to improve communication skills, technical depth and professional confidence.",featured: true },
-    { id: "agent-3", name: "AI Career Coach", link: "https://ai-career-coach-mj.vercel.app", task: "Advance your career with personalized guidance, interview prep, and AI-powered tools for job success."}
+    
+    { id: "agent-1", name: "Interview IQ", link: "https://interviewiq-ai-mj.onrender.com", task: "AI-powered interview preparation platform designed to improve communication skills, technical depth and professional confidence.",featured: true }
+    
   ];
 
   const [loadingStates, setLoadingStates] = useState<Record<string, boolean>>({});
